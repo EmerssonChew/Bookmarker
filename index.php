@@ -56,8 +56,8 @@ if ((isset($_POST['action'])) && ($_POST['action'] == 'Submit')) {
 							<input class="form-control" type="text" name="url">
 						</div>
 						<div class="btn-group btn-group" role="group">
-							<a class="btn btn-primary" name="action" href="index.php?action=clear">Clear All</a>
-							<input class="btn btn-primary" name="action" type="submit" value="Submit">
+							<a class="btn btn-primary" href="index.php?action=clear" name="action">Clear All</a>
+							<input class="btn btn-primary" type="submit" name="action" value="Submit">
 						</div>
 					</form>
 				</div>
